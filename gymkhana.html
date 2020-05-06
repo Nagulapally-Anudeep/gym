@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IIT-BBS Gymkhana</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<img src="slide10.jpg" class="slide10">
+	<div class="bar">
+	<div class="logo">
+		<a href="https://www.iitbbs.ac.in"><img src="logo2.png" alt="logo"></a>
+	</div>
+	 <ul style="list-style-type: none;">
+		 <li>
+			 <a class="home" href="">HOME</a>
+		 </li>
+		 <li class="drop1">
+			<a class="councils" href="">COUNCILS</a>
+			<div class="dropdown1">
+				<a href="" class="wiss">TECHNICAL COUNCIL</a>
+				<a href="" class="wiss">CULTURAL COUNCIL</a>
+				<a href="" class="wiss">SPORTS COUNCIL</a>
+			</div>
+		</li>
+		<li class="drop">
+			<a class="fests" href="">FESTS</a>
+			<div class="dropdown">
+				<a class="wiss" href="https://www.wissenaire.org">WISSENAIRE</a>
+				<a class="wiss" href="">ALMA FIESTA</a>
+				<a class="wiss" href="">ASHWAMEDHA</a>
+			</div>
+		</li>
+		<li class="drop2">
+			<a class="meets" href="">MEETS</a>
+			<div class="dropdown2">
+				<a href="" class="wiss">Inter IIT Tech Meet</a>
+				<a href="" class="wiss">Inter IIT Sports Meet</a>
+				
+			</div>
+		</li>
+		<li>
+			<a class="gallery" href="">GALLERY</a>
+		</li>
+		<li>
+			<a class="office" href="">OFFICE</a>
+		</li>
+		<li>
+			<a class="contact" href="">CONTACT</a>
+		</li>
+	 </ul>
+	 </div>
+	
+  <script>
+	  let i=1;
+	  function change(){
+         switch(i){  
+		  case 1:document.querySelector('.slide10').src="slide8.jpg";
+		         i=2;
+				 break;
+		  case 2:document.querySelector('.slide10').src="slide7.jpg";		 
+		         i=3;
+				 break;
+		  case 3:document.querySelector('.slide10').src="slide9.jpg";
+		         i=0;
+				 break;
+		  case 0:document.querySelector('.slide10').src="slide10.jpg";
+		         i=1;
+				 break;		 
+		 }
+	  }
+		 function rev(){
+			 switch(i){
+				case 1:document.querySelector('.slide10').src="slide9.jpg";
+				       i=2;
+					   break;
+				case 2:document.querySelector('.slide10').src="slide7.jpg";
+				       i=3;
+					   break;
+				case 3:document.querySelector('.slide10').src="slide8.jpg";
+				       i=0;
+					   break;
+				case 0:document.querySelector('.slide10').src="slide10.jpg";
+				       i=1;
+					   break;	   	   	    
+			 }
+		 
+	  }
+  </script>
+	 <h1 class="heading">Students' Gymkhana, IIT Bhubaneswar</h1>
+	 <p class="details">The Students' Gymkhana(Established in 2010) is a student body, fostering all student
+		  activities at IIT Bhubaneswar and bridging the gap between the
+		   students and the authorities.</p>
+	 <img src="arrow1.png" class="arrow" onclick="change()">
+	 <img src="arrow2.png" class="opparrow" onclick="rev()">
+	
+		
+	
+</body>
+</html>

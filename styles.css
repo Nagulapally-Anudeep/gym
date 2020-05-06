@@ -1,0 +1,233 @@
+body{
+    background-color: rgba(26, 13, 13, 0.89);
+    /* background-color: rgba(60, 101, 124, 0.76); */
+}
+div.bar{  
+  width: 1600px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background: linear-gradient(to right,rgb(138, 239, 248),rgb(70, 224, 160) );  */
+  
+}
+div.bar:hover{
+      background: rgba(26, 13, 13, 0.753);  
+    /* background: linear-gradient(to right,rgba(5, 5, 5, 0.4),rgba(78, 87, 83, 0.582) );  */
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    position: absolute;
+    top: 9px;
+     margin-left: 60px;
+    width: 81px;
+    height: 80px;
+    opacity: 1.5;
+}
+
+a.home{
+    position: absolute;
+    right: 870px;
+    top: 37px;
+    color: rgb(250, 226, 8);
+    font-family: fantasy ;
+    font-size: 1.45em;
+    
+}
+a.councils{
+    position: absolute;
+    color: rgb(250, 226, 8);
+    right: 740px;
+    top: 37px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+}
+a.fests{
+    position: absolute;
+    color: rgb(250, 226, 8);
+    right: 645px;
+    top: 37px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+
+}
+a.meets{
+    position: absolute;
+    right: 545px;
+    color: rgb(250, 226, 8);
+    top: 37px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+
+}
+a.gallery{
+    position: absolute;
+    right: 430px;
+    color: rgb(250, 226, 8);
+    top: 37px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+
+}
+a.office{
+    position: absolute;
+    color: rgb(250, 226, 8);
+    right: 330px;
+    top: 37px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+
+}
+a.contact{
+    position: absolute;
+   right: 200px;
+    top: 37px;
+    color: rgb(250, 226, 8);
+    font-family: fantasy ;
+    font-size: 1.45em;
+
+}
+.home:hover{
+    color: springgreen;
+}
+.councils:hover{
+    color: springgreen;
+}
+.fests:hover{
+    color: springgreen;
+}
+.meets:hover{
+    color: springgreen;
+}
+.gallery:hover{
+    color: springgreen;
+}
+.office:hover{
+    color: springgreen;
+}
+.contact:hover{
+    color: springgreen;
+}
+
+img.arrow{
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+img.opparrow{
+    position: absolute;
+    top:295px;
+    left: -70px;
+}
+.slide10{
+    position: absolute;
+    top: 0px;
+    left: -60px;
+    width: 1600px;
+    height: 750px;
+    opacity: 0.6;
+}
+p{
+    position: absolute;
+    top: 3000px;
+}
+
+h1.heading{
+    position: absolute;
+    top: 290px;
+    left: 380px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    
+}
+p.details{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 400px;
+    font-size: 1.8em;
+    font-family: 'Tangerine', serif;
+    text-align: center;
+    left: 190px;
+    right: 190px;
+}
+a.wiss{
+     text-decoration-style: none;
+    color: thistle;
+    font-family: cursive;
+    
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 67px;
+    right: 580px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+  min-width: 145px;
+}
+li.drop{
+    display: inline-block;
+}
+.dropdown a{
+    color: rgb(20, 13, 13);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.drop:hover  .dropdown{
+    display: block;
+}
+.dropdown a:hover{
+    background-color: rgba(78, 73, 69, 0.39);
+}
+.dropdown1{
+    display: none;
+    position: absolute;
+    top: 67px;
+    right: 670px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+  min-width: 145px;
+}
+.dropdown1 a{
+    color: rgb(20, 13, 13);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.drop1:hover .dropdown1 {
+    display: block;
+}
+.dropdown1 a:hover{
+    background-color: rgba(78, 73, 69, 0.39);
+}
+.dropdown2{
+    display: none;
+    position: absolute;
+    top: 67px;
+    right: 460px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+  min-width: 145px;
+}
+.dropdown2 a{
+    color: rgb(20, 13, 13);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.drop2:hover .dropdown2 {
+    display: block;
+}
+.dropdown2 a:hover{
+    background-color: rgba(78, 73, 69, 0.39);
+}
